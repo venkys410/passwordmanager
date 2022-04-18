@@ -1,0 +1,92 @@
+.item-card-container {
+  list-style-type: none;
+  min-width: 20%;
+  margin-right: 10px;
+}
+@media (max-width: 767px) {
+  .item-card-container {
+    width: 100%;
+  }
+}
+.card {
+  background-color: transparent;
+  border: 1px solid #b6c3ca;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+.bg-7683cb {
+  background-color: #7683cb;
+}
+.bg-f59e0b {
+  background-color: #f59e0b;
+}
+.bg-10b981 {
+  background-color: #10b981;
+}
+.bg-f97316 {
+  background-color: #f97316;
+}
+.bg-14b8a6 {
+  background-color: #14b8a6;
+}
+.bg-b91c1c {
+  background-color: #b91c1c;
+}
+.bg-0ea5e9 {
+  background-color: #0ea5e9;
+}
+.initial {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0;
+}
+.initial-details-container {
+  display: flex;
+  align-items: center;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+}
+.website {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.username {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.stars {
+  width: 60px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete-icon {
+  height: 26px;
+  width: 26px;
+}
